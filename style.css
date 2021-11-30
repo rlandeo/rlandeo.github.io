@@ -8,9 +8,9 @@
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
     background: transparent;
-    color: rgba(17, 15, 15, 0.705);
+    color: rgba(17, 15, 15, 0.705) !important;
 }
 
 li {
@@ -92,5 +92,103 @@ span {
 }
 
 a:hover {
-    color: rgb(241, 68, 37);
+    color: rgb(241, 68, 37) !important;
+}
+
+.bodyContainer {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    flex-wrap: wrap;
+    background: transparent;
+}
+
+.container div {
+    background: transparent;
+}
+
+img {
+    background: transparent;
+    width: 80px;
+    opacity: 70%;
+}
+
+.container h3 {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    opacity: 80%;
+    padding-top: 0.5em;
+}
+
+.containerWorks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.containerWorks div {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+}
+
+.containerWorks img {
+    width: 20em;
+    opacity: 77%;
+}
+
+.containerWorks p {
+    background: transparent;
+    font-size: 24px;
+    color: rgba(17, 15, 15, 0.600);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+    text-transform: uppercase;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    font-size: 24px;
+}
+
+form {
+    width: 500px;
+    border: solid 2px rgba(39, 36, 36, 0.801);
+    padding: 30px;
+    border-radius: 20px;
+    background: transparent;
+}
+
+form div {
+    background: transparent !important;
+}
+
+.form-label {
+    background: transparent;
+}
+
+label {
+    background: transparent;
+}
+
+.form-control {
+    border: 1px solid rgba(39, 36, 36, 0.801) !important;
+}
+
+.btn-secondary {
+    color: rgba(39, 36, 36, 0.801) !important;
+    font-size: 18px !important;
 }
